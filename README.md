@@ -15,3 +15,14 @@ Let's build a little off the previous exercise. Here, you're going to give two e
 The first element: a black background and white text
 The second element: a yellow background
 Both elements: a font size of 28px and a list of fonts containing Helvetica and Times New Roman, with sans-serif as a fallback
+
+Chaining
+We have two images for you to style, each with two class names, where one of the class names is shared. The goal here is to chain the selectors for both elements, so that each have a unique style applied, despite using a shared class selector.
+The properties you need to add to each element are:
+Make the element with both the avatar and proportioned classes 300 pixels wide. We want it to automatically retain its original square proportions, so don't hardcode in a pixel value for its height.
+Make the element with both the avatar and distorted classes 200 pixels wide, then make its height twice as big as its width (here you should hardcode in a pixel value).
+
+Descendant
+The goal of this exercise is to apply styles to elements that are descendants of another element, while leaving elements that aren't descendants of that element unstyled.
+The properties you need to add are:
+Only the p elements that are descendants of the div element should have a yellow background, red text, a font size of 20px, and center aligned.
