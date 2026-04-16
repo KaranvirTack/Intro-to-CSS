@@ -26,3 +26,11 @@ Descendant:
 The goal of this exercise is to apply styles to elements that are descendants of another element, while leaving elements that aren't descendants of that element unstyled.
 The properties you need to add are:
 Only the p elements that are descendants of the div element should have a yellow background, red text, a font size of 20px, and center aligned.
+
+Margin and Padding practice:
+For this first exercise, simply edit the style.css file so that the divs look like the image below.
+Div One and Div Three have 32px between their text and border.
+Div One has 12px between it and any other element on the page.
+There is a 48px gap between Div Two and Div Three.
+Div Three is aligned to the right.
+Div Three's alignment is achieved using margin (and not float, flexbox, etc.).
